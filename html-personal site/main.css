@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'reckoner';
+    src: url(Reckoner.ttf);
+}
+@font-face {
+    font-family: 'anurati';
+    src: url(Anurati-Regular.ttf);
+}
+@font-face {
+    font-family: 'aqua1';
+    src: url(Aquatico-Regular.ttf);
+}
+body{
+    margin: 0;
+    text-align: center;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.375rem;
+    color: #08fdd8;
+}
+p{
+    color: #B9FFF8;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.profilepic{
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.top{
+    position: relative;
+    padding-top: 250px;
+}
+
+h2{
+    font-family: 'reckoner';
+    font-size: 3rem;
+    color: #fd2155;
+    font-weight: normal;
+}
+
+h3{
+    color: #7c73e6;
+    font-size: 2rem;
+    font-weight: 1;
+    font-family: 'Shadows Into Light', cursive;;
+}
+hr{
+    border: dotted #F7F7F7 4px;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+a{
+    color: #F7F7F7;
+
+}
+.hackur{
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.skill-row1{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    line-height: 2;
+}
+.skill-row2{
+    margin: 100px auto 200px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.profile{
+    margin: 340px auto 100px auto;
+    width: 50%;
+    line-height: 2;
+}
+.ui{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.messenger{
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.btn {
+    background: #aff4f1;
+    background-image: -webkit-linear-gradient(top, #aff4f1, #aff4f1);
+    background-image: -moz-linear-gradient(top, #aff4f1, #aff4f1);
+    background-image: -ms-linear-gradient(top, #aff4f1, #aff4f1);
+    background-image: -o-linear-gradient(top, #aff4f1, #aff4f1);
+    background-image: linear-gradient(to bottom, #aff4f1, #aff4f1);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px #7c73e6;
+    -moz-box-shadow: 5px 5px 10px #7c73e6;
+    box-shadow: 5px 5px 10px #7c73e6;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 17px 10px 20px;
+    text-decoration: none;
+}
+a{
+    color: #08fdd8;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+a:hover{
+    color: #1e1e1e;
+}
+.btn:hover {
+    background: #fd2155;
+    background-image: -webkit-linear-gradient(top, #fd2155, #fd2155);
+    background-image: -moz-linear-gradient(top, #fd2155, #fd2155);
+    background-image: -ms-linear-gradient(top, #fd2155, #fd2155);
+    background-image: -o-linear-gradient(top, #fd2155, #fd2155);
+    background-image: linear-gradient(to bottom, #fd2155, #fd2155);
+    text-decoration: none;
+}
+.bottom-container{
+    background-color: #fd2155;
+    margin-top: 0px;
+    padding: 40px 0px 5px;
+
+}
+.contact-message{
+    margin-bottom: 50px;
+}
+.copyright{
+    color: #1e1e1e;
+    font-size: 0.75rem;
+}
+.navbar{
+        background-color: transparent;
+        margin-top: 0px;
+        padding: 40px 50px 5px;
+        position: fixed;
+        
+}
+.nav1{
+    font-family: 'aqua1';
+    margin: 10px 15px;
+    text-decoration: none;
+}
+.nav1:hover{
+    color: #fd2155;
+    text-decoration: underline;
+}
+.nav2{
+    font-family: 'aqua1';
+    margin: 10px 15px 10px 920px;
+    text-decoration: none;
+}
+.nav2:hover{
+    color: #fd2155;
+    text-decoration: underline;
+}
